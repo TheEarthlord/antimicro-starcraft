@@ -4,7 +4,7 @@ not, it doesn't matter, it's not used) plus start and select.
 
 The Starcraft controller works by switching between 5 modes.
 
-##### Scroll Mode
+## Scroll Mode
 Initial mode, or Scroll Mode, accesses all the others.
 * Top Left goes to Mouse Mode
 * Top Right goes to Command Mode
@@ -17,30 +17,30 @@ Initial mode, or Scroll Mode, accesses all the others.
 In the four other modes, Start always goes back to Scroll Mode.
 So you always know which mode you're in if you press Start once.
 
-##### Mouse Mode
+## Mouse Mode
 * Up, Down Left, Right move the mouse up, down, left, right.
 * Top Left is left click
 Note you can hold down left click while moving the mouse
 to draw a box.
 * Top right is right click
 * Bottom Left hits the bottom left button on the command card,
-useful for easily casting most abilities.
+    useful for easily casting most abilities.
 * Bottom Right is 'a', useful for easily issuing attack move.
 * Select is Esc, to get out of undesired targeting
 
-##### Command Mode
+## Command Mode
 * Top Left, Up, Top Right, Left, Right, Bottom Left, Down, Bottom Right
-all hit the corresponding button on the command card. Imagine the
-command card is overlayed on the Dance Mat.
+    all hit the corresponding button on the command card. Imagine the
+    command card is overlayed on the Dance Mat.
 * Select hits the middle button of the command card.
 
-##### Control Mode 1
+## Control Mode 1
 * Up and Down are Control (Left Control)
 * Top Left, Top Right, Left, Right, Bottom Left, Bottom Right
-are 1 through 6. Used to access control groups.
+    are 1 through 6. Used to access control groups.
 * Select is Shift, for adding to control groups.
 
-##### Control Mode 2
+## Control Mode 2
 * Top Left, Up, Top Right are F2, F3, F4 for Camera Locations.
 * Select is Shift, for adding to control groups and setting Camera Locations.
 * Left, Right, Bottom Left, Bottom Right are 7, 8, 9, 0.
