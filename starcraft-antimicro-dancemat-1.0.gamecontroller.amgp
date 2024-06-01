@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gamecontroller configversion="19" appversion="3.1.4">
+    <!--The SDL name for a joystick is included for informational purposes only.-->
+    <sdlname>Retrolink SNES Controller</sdlname>
+    <!--The Unique ID for a joystick is included for informational purposes only.-->
+    <uniqueID>0300000079000000110000001001000012117</uniqueID>
+    <stickAxisAssociation index="1" xAxis="1" yAxis="2"/>
+    <stickAxisAssociation index="2" xAxis="3" yAxis="4"/>
+    <vdpadButtonAssociations index="1">
+        <vdpadButtonAssociation axis="0" button="12" direction="1"/>
+        <vdpadButtonAssociation axis="0" button="13" direction="4"/>
+        <vdpadButtonAssociation axis="0" button="14" direction="8"/>
+        <vdpadButtonAssociation axis="0" button="15" direction="2"/>
+    </vdpadButtonAssociations>
+    <names>
+        <controlstickname index="1">L Stick</controlstickname>
+        <controlstickname index="2">R Stick</controlstickname>
+    </names>
+    <sets>
+        <set index="3">
+            <name>Command mode</name>
+            <trigger index="5">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>positivehalf</throttle>
+            </trigger>
+            <trigger index="6">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>positivehalf</throttle>
+            </trigger>
+            <button index="11">
+                <mousemode>spring</mousemode>
+                <mousespringwidth>10</mousespringwidth>
+                <mousespringheight>216</mousespringheight>
+                <slots>
+                    <slot>
+                        <path>/usr/bin/python3</path>
+                        <arguments>games/DanceMat/antimicro-master/pynput_for_antimicro/bot_right.py</arguments>
+                        <mode>execute</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="9">
+                <mousemode>spring</mousemode>
+                <mousespringwidth>294</mousespringwidth>
+                <mousespringheight>10</mousespringheight>
+                <slots>
+                    <slot>
+                        <path>/usr/bin/python3</path>
+                        <arguments>games/DanceMat/antimicro-master/pynput_for_antimicro/up_right.py</arguments>
+                        <mode>execute</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="10">
+                <mousemode>spring</mousemode>
+                <mousespringwidth>10</mousespringwidth>
+                <mousespringheight>134</mousespringheight>
+                <slots>
+                    <slot>
+                        <path>/usr/bin/python3</path>
+                        <arguments>games/DanceMat/antimicro-master/pynput_for_antimicro/bot_left.py</arguments>
+                        <mode>execute</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="3">
+                <mousemode>spring</mousemode>
+                <mousespringwidth>10</mousespringwidth>
+                <mousespringheight>10</mousespringheight>
+                <slots>
+                    <slot>
+                        <path>/usr/bin/python3</path>
+                        <arguments>games/DanceMat/antimicro-master/pynput_for_antimicro/mid_right.py</arguments>
+                        <mode>execute</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="4">
+                <mousemode>spring</mousemode>
+                <mousespringwidth>10</mousespringwidth>
+                <mousespringheight>10</mousespringheight>
+                <relativespring>true</relativespring>
+                <slots>
+                    <slot>
+                        <path>/usr/bin/python3</path>
+                        <arguments>games/DanceMat/antimicro-master/pynput_for_antimicro/mid_left.py</arguments>
+                        <mode>execute</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="1">
+                <mousemode>spring</mousemode>
+                <mousespringwidth>249</mousespringwidth>
+                <mousespringheight>10</mousespringheight>
+                <mouseacceleration>linear</mouseacceleration>
+                <slots>
+                    <slot>
+                        <path>/usr/bin/python3</path>
+                        <arguments>games/DanceMat/antimicro-master/pynput_for_antimicro/up_cent.py</arguments>
+                        <mode>execute</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="2">
+                <mousemode>spring</mousemode>
+                <mousespringwidth>10</mousespringwidth>
+                <mousespringheight>172</mousespringheight>
+                <slots>
+                    <slot>
+                        <path>/usr/bin/python3</path>
+                        <arguments>games/DanceMat/antimicro-master/pynput_for_antimicro/bot_cent.py</arguments>
+                        <mode>execute</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="7">
+                <setselect>1</setselect>
+                <setselectcondition>one-way</setselectcondition>
+            </button>
+            <button index="8">
+                <mousemode>spring</mousemode>
+                <mousespringwidth>204</mousespringwidth>
+                <mousespringheight>10</mousespringheight>
+                <slots>
+                    <slot>
+                        <path>/usr/bin/python3</path>
+                        <arguments>games/DanceMat/antimicro-master/pynput_for_antimicro/up_left.py</arguments>
+                        <mode>execute</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="5">
+                <slots>
+                    <slot>
+                        <path>/usr/bin/python3</path>
+                        <arguments>games/DanceMat/antimicro-master/pynput_for_antimicro/mid_cent.py</arguments>
+                        <mode>execute</mode>
+                    </slot>
+                </slots>
+            </button>
+        </set>
+        <set index="4">
+            <name>Control mode 1</name>
+            <trigger index="5">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>positivehalf</throttle>
+            </trigger>
+            <trigger index="6">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>positivehalf</throttle>
+            </trigger>
+            <button index="11">
+                <slots>
+                    <slot>
+                        <code>0x36</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="9">
+                <slots>
+                    <slot>
+                        <code>0x34</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="10">
+                <slots>
+                    <slot>
+                        <code>0x33</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="3">
+                <slots>
+                    <slot>
+                        <code>0x35</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="4">
+                <slots>
+                    <slot>
+                        <code>0x32</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="1">
+                <slots>
+                    <slot>
+                        <code>0x1000021</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="2">
+                <slots>
+                    <slot>
+                        <code>0x1000021</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="7">
+                <setselect>1</setselect>
+                <setselectcondition>one-way</setselectcondition>
+            </button>
+            <button index="8">
+                <slots>
+                    <slot>
+                        <code>0x31</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="5">
+                <slots>
+                    <slot>
+                        <code>0x1000020</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+        </set>
+        <set index="1">
+            <name>Scroll mode</name>
+            <trigger index="5">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>positivehalf</throttle>
+            </trigger>
+            <trigger index="6">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>positivehalf</throttle>
+            </trigger>
+            <button index="11">
+                <setselect>5</setselect>
+                <setselectcondition>one-way</setselectcondition>
+            </button>
+            <button index="9">
+                <setselect>3</setselect>
+                <setselectcondition>one-way</setselectcondition>
+            </button>
+            <button index="10">
+                <setselect>4</setselect>
+                <setselectcondition>one-way</setselectcondition>
+            </button>
+            <button index="3">
+                <slots>
+                    <slot>
+                        <code>0x1000014</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="4">
+                <slots>
+                    <slot>
+                        <code>0x1000012</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="1">
+                <slots>
+                    <slot>
+                        <code>0x1000013</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="2">
+                <slots>
+                    <slot>
+                        <code>0x1000015</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="8">
+                <setselect>2</setselect>
+                <setselectcondition>one-way</setselectcondition>
+            </button>
+        </set>
+        <set index="2">
+            <name>Mouse mode</name>
+            <stick index="2">
+                <calibrated>false</calibrated>
+                <summary></summary>
+                <stickbutton index="3">
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>0x57</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="7">
+                    <slots>
+                        <slot>
+                            <code>0x41</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="5">
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+            </stick>
+            <trigger index="5">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>positivehalf</throttle>
+            </trigger>
+            <trigger index="6">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>positivehalf</throttle>
+            </trigger>
+            <button index="11">
+                <turbointerval>100</turbointerval>
+                <slots>
+                    <slot>
+                        <code>0x41</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="9">
+                <turbointerval>100</turbointerval>
+                <slots>
+                    <slot>
+                        <code>3</code>
+                        <mode>mousebutton</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="10">
+                <turbointerval>100</turbointerval>
+                <slots>
+                    <slot>
+                        <path>/usr/bin/python3</path>
+                        <arguments>games/DanceMat/antimicro-master/pynput_for_antimicro/bot_left.py</arguments>
+                        <mode>execute</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="3">
+                <slots>
+                    <slot>
+                        <code>4</code>
+                        <mode>mousemovement</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="4">
+                <slots>
+                    <slot>
+                        <code>3</code>
+                        <mode>mousemovement</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="1">
+                <slots>
+                    <slot>
+                        <code>1</code>
+                        <mode>mousemovement</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="2">
+                <slots>
+                    <slot>
+                        <code>2</code>
+                        <mode>mousemovement</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="7">
+                <setselect>1</setselect>
+                <setselectcondition>one-way</setselectcondition>
+            </button>
+            <button index="8">
+                <slots>
+                    <slot>
+                        <code>1</code>
+                        <mode>mousebutton</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="5">
+                <turbointerval>100</turbointerval>
+                <slots>
+                    <slot>
+                        <code>0x1000000</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+        </set>
+        <set index="5">
+            <name>Control mode 2</name>
+            <trigger index="5">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>positivehalf</throttle>
+            </trigger>
+            <trigger index="6">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>positivehalf</throttle>
+            </trigger>
+            <button index="11">
+                <slots>
+                    <slot>
+                        <code>0x30</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="9">
+                <slots>
+                    <slot>
+                        <code>0x1000033</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="10">
+                <slots>
+                    <slot>
+                        <code>0x38</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="3">
+                <slots>
+                    <slot>
+                        <code>0x39</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="4">
+                <slots>
+                    <slot>
+                        <code>0x37</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="1">
+                <slots>
+                    <slot>
+                        <code>0x1000032</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="2">
+                <slots>
+                    <slot>
+                        <code>0x1000021</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="7">
+                <setselect>1</setselect>
+                <setselectcondition>one-way</setselectcondition>
+            </button>
+            <button index="8">
+                <slots>
+                    <slot>
+                        <code>0x1000031</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="5">
+                <slots>
+                    <slot>
+                        <code>0x1000020</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+        </set>
+        <set index="6">
+            <trigger index="5">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>positivehalf</throttle>
+            </trigger>
+            <trigger index="6">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>positivehalf</throttle>
+            </trigger>
+            <button index="11">
+                <turbointerval>100</turbointerval>
+            </button>
+            <button index="9">
+                <turbointerval>100</turbointerval>
+            </button>
+            <button index="10">
+                <turbointerval>100</turbointerval>
+            </button>
+            <button index="5">
+                <turbointerval>100</turbointerval>
+            </button>
+        </set>
+    </sets>
+</gamecontroller>
