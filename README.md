@@ -1,3 +1,7 @@
+# Starcraft Dance mat controller
+
+Uses Antimicro and pynput
+
 The controller is intended for a Dance Mat of 10 buttons:
 8 buttons around the centre (the centre may be a button or
 not, it doesn't matter, it's not used) plus start and select.
@@ -19,9 +23,9 @@ So you always know which mode you're in if you press Start once.
 
 ## Mouse Mode
 * Up, Down Left, Right move the mouse up, down, left, right.
-* Top Left is left click
-Note you can hold down left click while moving the mouse
-to draw a box.
+* Top Left is left click.
+    Note you can hold down left click while moving the mouse
+    to draw a box.
 * Top right is right click
 * Bottom Left hits the bottom left button on the command card,
     useful for easily casting most abilities.
@@ -44,5 +48,5 @@ to draw a box.
 * Top Left, Up, Top Right are F2, F3, F4 for Camera Locations.
 * Select is Shift, for adding to control groups and setting Camera Locations.
 * Left, Right, Bottom Left, Bottom Right are 7, 8, 9, 0.
-* Used to access control groups.
+    Used to access control groups.
 * Down is Control. (Left Control).
